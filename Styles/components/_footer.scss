@@ -1,0 +1,9 @@
+@use '../abstract/variaveis';
+@use '../abstract/mixins';
+
+.attribution {
+    @include mixins.family-color-size(variaveis.$font2, variaveis.$White, 0.75rem);
+    a {
+        color: variaveis.$Soft-violet;
+    }
+}

@@ -1,0 +1,11 @@
+@use './abstract/root';
+@use './abstract/variaveis';
+@use './abstract/mixins';
+
+@use './components/body';
+@use './components/header';
+@use './components/conteudo';
+@use './components/numbres';
+@use './components/footer';
+
+@use './components/media-query';

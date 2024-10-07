@@ -1,0 +1,17 @@
+@use '../abstract/variaveis';
+
+
+.mother {
+    display: flex;
+    background: variaveis.$Dark-desaturated-blue;
+    flex-direction: row-reverse;
+    width: 1073px;
+    border-radius: 10px;
+    #programadoras{
+        border-radius:  0 10px 10px 0;
+        opacity:60% ;
+    }
+    #programadoras2{
+        display: none;
+    }
+}

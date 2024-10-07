@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: hsl(233, 47%, 7%);
+}
+
+.mother {
+  display: flex;
+  background: hsl(244, 38%, 16%);
+  flex-direction: row-reverse;
+  width: 1073px;
+  border-radius: 10px;
+}
+.mother #programadoras {
+  border-radius: 0 10px 10px 0;
+  opacity: 60%;
+}
+.mother #programadoras2 {
+  display: none;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 60px;
+}
+.conteudo .title {
+  font-family: "inter", system-ui;
+  color: hsl(0, 0%, 100%);
+  font-size: 2.5rem;
+  line-height: 45px;
+}
+.conteudo .title strong {
+  color: #aa5cdb;
+}
+.conteudo .texts {
+  font-family: "inter", system-ui;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 0.875rem;
+  line-height: 23px;
+  letter-spacing: 0.9px;
+}
+
+.numbres {
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
+  line-height: 30px;
+  margin-top: 40px;
+}
+.numbres .nub {
+  font-family: "inter", system-ui;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.594rem;
+}
+.numbres .comb {
+  font-family: "Lexend Deca", system-ui;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 0.844rem;
+  font-weight: 300;
+}
+
+.attribution {
+  font-family: "Lexend Deca", system-ui;
+  color: hsl(0, 0%, 100%);
+  font-size: 0.75rem;
+}
+.attribution a {
+  color: #aa5cdb;
+}
+
+@media (max-width: 480px) {
+  body {
+    margin: 40px 0 20px 0;
+    position: relative;
+    overflow: scroll;
+  }
+  .mother {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 310px;
+  }
+  .mother #programadoras {
+    display: none;
+  }
+  .mother #programadoras2 {
+    display: block;
+    border-radius: 10px 10px 0 0;
+    opacity: 60%;
+  }
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 30px;
+  }
+  .conteudo .title {
+    font-family: "inter", system-ui;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.563rem;
+    text-align: center;
+    line-height: 28.5px;
+  }
+  .conteudo .texts {
+    font-family: "inter", system-ui;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 0.75rem;
+    text-align: center;
+  }
+  .numbres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    line-height: 25px;
+    margin-top: 10px;
+  }
+  .numbres .nub {
+    font-size: 1.5rem;
+  }
+  .numbres .comb {
+    font-size: 0.75rem;
+  }
+}/*# sourceMappingURL=style.css.map */

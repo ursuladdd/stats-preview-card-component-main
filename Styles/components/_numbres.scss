@@ -1,0 +1,17 @@
+@use '../abstract/variaveis';
+@use '../abstract/mixins';
+
+.numbres {
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    line-height: 30px;
+    margin-top: 40px;
+    .nub {
+        @include mixins.family-color-size(variaveis.$font1, variaveis.$White, 1.594rem);
+    }
+    .comb {
+        @include mixins.family-color-size(variaveis.$font2, variaveis.$Slightly-transparent-gray, 0.844rem);
+        font-weight: 300;
+    }
+}
